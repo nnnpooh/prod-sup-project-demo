@@ -60,7 +60,7 @@
         "type": "ui_tab",
         "name": "Dashboard",
         "icon": "dashboard",
-        "order": 2,
+        "order": 1,
         "disabled": false,
         "hidden": false
     },
@@ -208,7 +208,7 @@
         "type": "ui_tab",
         "name": "Control",
         "icon": "dashboard",
-        "order": 1,
+        "order": 2,
         "disabled": false,
         "hidden": false
     },
@@ -1206,7 +1206,7 @@
         "once": false,
         "onceDelay": 0.1,
         "topic": "",
-        "payload": "LINE",
+        "payload": "FIREBASE_SERVICE_ACCOUNT",
         "payloadType": "env",
         "x": 450,
         "y": 220,

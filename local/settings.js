@@ -21,9 +21,9 @@
  **/
 
 // Nirand: Add env variables
-require('dotenv').config();
-var serviceAccount = require('../environment/adjusted-age-calc-firebase-adminsdk.json');
-process.env.firebaseServiceAccount = JSON.stringify(serviceAccount);
+// require('dotenv').config();
+// var serviceAccount = require('../environment/adjusted-age-calc-firebase-adminsdk.json');
+// process.env.firebaseServiceAccount = JSON.stringify(serviceAccount);
 
 module.exports = {
   /*******************************************************************************

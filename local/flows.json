@@ -1206,7 +1206,7 @@
         "once": false,
         "onceDelay": 0.1,
         "topic": "",
-        "payload": "LINE",
+        "payload": "FIREBASE_SERVICE_ACCOUNT",
         "payloadType": "env",
         "x": 450,
         "y": 220,
