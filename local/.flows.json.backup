@@ -146,7 +146,7 @@
             "name": "My Dashboard",
             "hideToolbar": "false",
             "allowSwipe": "false",
-            "lockMenu": "true",
+            "lockMenu": "false",
             "allowTempTheme": "true",
             "dateFormat": "DD/MM/YYYY",
             "sizes": {
@@ -165,7 +165,7 @@
         "id": "5d3245bfbfc17903",
         "type": "mqtt-broker",
         "name": "ProdSup",
-        "broker": "35.240.248.118",
+        "broker": "35.213.147.191",
         "port": "1883",
         "clientid": "",
         "autoConnect": true,
@@ -775,13 +775,14 @@
         "once": false,
         "onceDelay": 0.1,
         "topic": "",
-        "payload": "",
-        "payloadType": "date",
-        "x": 120,
+        "payload": "{\"LSM6DSO Acceleration Sensor\":{\"values\":[10,20,20]}}",
+        "payloadType": "json",
+        "x": 110,
         "y": 240,
         "wires": [
             [
-                "b55c57ca76abe546"
+                "b55c57ca76abe546",
+                "be968757197180b8"
             ]
         ]
     },
@@ -1188,6 +1189,23 @@
         "wires": []
     },
     {
+        "id": "be968757197180b8",
+        "type": "debug",
+        "z": "dedfba256312356e",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 320,
+        "y": 260,
+        "wires": []
+    },
+    {
         "id": "2e2c5b29411b1191",
         "type": "inject",
         "z": "9cab3d86bb384ee4",
@@ -1245,7 +1263,7 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 930,
+        "x": 910,
         "y": 280,
         "wires": []
     },
