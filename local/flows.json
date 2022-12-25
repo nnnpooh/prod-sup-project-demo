@@ -1029,7 +1029,7 @@
         "winHide": false,
         "oldrc": false,
         "name": "",
-        "x": 430,
+        "x": 610,
         "y": 400,
         "wires": [
             [
@@ -1068,7 +1068,7 @@
         "y": 380,
         "wires": [
             [
-                "4fa1be7887cebda3"
+                "f79c0255376874f4"
             ]
         ]
     },
@@ -1103,7 +1103,7 @@
         "complete": "false",
         "statusVal": "",
         "statusType": "auto",
-        "x": 730,
+        "x": 870,
         "y": 400,
         "wires": []
     },
@@ -1181,7 +1181,7 @@
         "y": 440,
         "wires": [
             [
-                "4fa1be7887cebda3"
+                "f79c0255376874f4"
             ]
         ]
     },
@@ -1411,6 +1411,28 @@
             [
                 "87e24dfc27464a55"
             ]
+        ]
+    },
+    {
+        "id": "f79c0255376874f4",
+        "type": "exec",
+        "z": "d5ee0e6c2602abe0",
+        "command": "pkill termux",
+        "addpay": "",
+        "append": "",
+        "useSpawn": "false",
+        "timer": "",
+        "winHide": false,
+        "oldrc": false,
+        "name": "",
+        "x": 390,
+        "y": 400,
+        "wires": [
+            [
+                "4fa1be7887cebda3"
+            ],
+            [],
+            []
         ]
     }
 ]
